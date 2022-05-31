@@ -1,0 +1,43 @@
+{
+  "name": "hexo-filter-jsdelivr-auto-fallback",
+  "version": "0.0.2",
+  "description": "Add jsdelivr-auto-fallback to hexo site automatically",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PipecraftNet/hexo-filter-jsdelivr-auto-fallback.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "hexo-filter",
+    "jsdelivr",
+    "cdn",
+    "jsdelivr-auto-fallback"
+  ],
+  "author": "Pipecraft <pipecraft.net@gmail.com> (https://www.pipecraft.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PipecraftNet/hexo-filter-jsdelivr-auto-fallback/issues"
+  },
+  "homepage": "https://github.com/PipecraftNet/hexo-filter-jsdelivr-auto-fallback#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-hexo": "^5.0.0"
+  },
+  "dependencies": {
+    "jsdelivr-auto-fallback": "*"
+  }
+}
