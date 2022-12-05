@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-jsdelivr-auto-fallback",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Add jsdelivr-auto-fallback to hexo site automatically",
   "main": "index.js",
   "files": [
